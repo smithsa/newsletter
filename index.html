@@ -7,12 +7,56 @@
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Londrina+Solid&display=swap" rel="stylesheet">
+  <link
+      href="//fonts.googleapis.com/css?family=Londrina+Solid:100,300,400,900|Montserrat:300,300i,400,400i,500,500i,600,600i,700&display=swap"
+      rel="stylesheet"
+    />
   <style type="text/css">
-    #mc_embed_signup{background: none; clear:left; font:16px 'Montserrat', sans-serif; }
+    body{
+        margin: 0px;
+    }
+    form{
+        padding:20px;
+    }
+    #mc_embed_signup{background: none; 
+        font-family:  'Montserrat', sans-serif;
+    }
     input{width: 100%; margin: 0px;}
     #mc-embedded-subscribe{
         font-family: 'Londrina Solid', cursive;
+        text-transform: uppercase;
+        padding: 12px 30px;
+        color: #ffffff;
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+        letter-spacing: 3px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: background .3s ease-in-out;
+        position: relative;
+        border: 3px solid #000000;
+        margin-top:10px;
+        background-color: #000000;
+        cursor: pointer;
+    }
+    #mc-embedded-subscribe:hover, 
+    #mc-embedded-subscribe:focus{
+        background: #f9cac8;
+        color: black;
+    }
+    #mce-EMAIL{
+        padding: 12px 15px;
+        font-size: 1.2em;
+        border: none;
+        color: #000000;
+        border: 3px solid #000000;
+        box-shadow: none;
+        box-sizing: border-box;
+    }
+    #mce-EMAIL:focus{
+        border-color: #e73c4e;
+        outline: 0;
     }
 
 </style>
@@ -23,11 +67,12 @@
 <form action="https://elminthespring.us19.list-manage.com/subscribe/post?u=7f1c2d8a3cd0f3008803845ad&amp;id=0a8d03f3de" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
     
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7f1c2d8a3cd0f3008803845ad_0a8d03f3de" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
+    <div style="position: absolute; left: -5000px; top: -2000px" aria-hidden="true"><input type="text" name="b_7f1c2d8a3cd0f3008803845ad_0a8d03f3de" tabindex="-1" value=""></div>
+
+    <label for="mce-EMAIL" style="position: absolute; left: -5000px; top: -2000px">Email</label>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </form>
 </div>
 
